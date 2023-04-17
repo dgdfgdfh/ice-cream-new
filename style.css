@@ -1,0 +1,80 @@
+.feedback {
+    display: flex;
+}
+
+.feedback__column {
+    width: 50%;
+}
+
+.reviews {}
+
+.review_text ::before {
+    content: ".";
+
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+}
+
+.avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.avatars {
+    padding: 0px 40 px;
+    position: relative;
+    max-width: 260px;
+}
+
+.avatars_ctrls {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 0;
+    transform: translate(0, -50%);
+    display: flex;
+    justify-content: space-between;
+}
+.avatars_ctrl {
+    width: 14px;
+    height: 14px;
+}
+.avatars__ctrl-pic {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.avatar_ctrl-left {
+    transform: scale(-1, 1);
+}
+
+.avatar_ctrl-right {}
+
+.avatars_list {
+    display: flex;
+    column-gap: 27px;
+    justify-content: space-between;
+}
+
+.avatar-img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.avatars__item {
+    width: 35px;
+    height: 35px;
+    flex-shrink: 0;
+    flex: 0 auto;
+}
+.avatars__item.active {
+    width: 58px;
+    height: 58px;
+}
